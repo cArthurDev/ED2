@@ -1,3 +1,0 @@
-A busca sequencial é melhor que a binária em uma situação bem específica: quando os dados não estão ordenados. Isso acontece porque, para usar a busca binária, o vetor precisa estar organizado, tipo uma lista em que os números vão do menor para o maior.
-
-Então, se o vetor não estiver em ordem, a busca sequencial, que vai olhando de um em um até achar o valor, pode ser mais rápida, porque você não perde tempo ordenando antes. Na prática, para um vetor bagunçado (não ordenado), a busca sequencial pode ser mais rápida, porque a binária só funciona se você ordenar tudo primeiro, o que gasta mais tempo.
